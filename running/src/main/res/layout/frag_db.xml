@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edit_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="琦琦" />
+
+            <EditText
+                android:id="@+id/edit_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="22" />
+
+            <EditText
+
+                android:id="@+id/edit_sex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="美女" />
+
+            <EditText
+                android:id="@+id/edit_salary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="6000" />
+
+            <Button
+                android:id="@+id/db_xutil_insert"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="插入一条数据" />
+
+            <Button
+                android:id="@+id/db_xutil_query"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="查询全部" />
+
+            <Button
+                android:id="@+id/db_xutil_selector"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Selector" />
+
+            <Button
+                android:id="@+id/db_xutil_update"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="修改" />
+
+            <Button
+                android:id="@+id/db_xutil_delete"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="删除" />
+
+            <Button
+                android:id="@+id/db_xutil_xingning"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="数据库性能测试" />
+
+            <TextView
+                android:id="@+id/db_xutil_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

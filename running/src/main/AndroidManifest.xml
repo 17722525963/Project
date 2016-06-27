@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.run.running">
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+
+    <!--微信权限-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".app.MyAppLication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity
+            android:name=".activity.MainActivity"
+            android:theme="@style/MainActTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.img.ImageFromHongyangActivity"
+            android:theme="@style/DetailActTheme">
+
+        </activity>
+        <activity
+            android:name=".activity.img.ImageFromHongyangDetailActivity"
+            android:theme="@style/DetailActTheme">
+
+        </activity>
+        <activity
+            android:name=".activity.DetailActivity"
+            android:theme="@style/DetailActTheme">
+
+        </activity>
+        <activity
+            android:name=".activity.img.ImageFromPicassoActivity"
+            android:theme="@style/DetailActTheme"></activity>
+        <activity
+            android:name=".activity.img.ImageFromPicassoDetailActivity"
+            android:theme="@style/DetailActTheme"></activity>
+
+        <activity
+            android:name=".activity.img.ImageFromVolleyActivity"
+            android:theme="@style/DetailActTheme"></activity>
+        <activity
+            android:name=".activity.img.ImageFromUILActivity"
+            android:theme="@style/DetailActTheme">
+
+        </activity>
+        <activity
+            android:name=".activity.img.SimpleImageActivity"
+            android:theme="@style/DetailActTheme">
+
+        </activity>
+        <activity
+            android:name=".activity.img.BigImageActivity"
+            android:theme="@style/DetailActTheme">
+
+        </activity>
+        <activity
+            android:name=".activity.img.WorldMapActivity"
+            android:theme="@style/DetailActTheme"></activity>
+        <activity
+            android:name=".activity.img.ImageFromXutilActivity"
+            android:theme="@style/MainActTheme"></activity>
+        <activity
+            android:name=".activity.img.XutilImageDetailActivity"
+            android:theme="@style/DetailActTheme"></activity>
+
+        <activity
+            android:name=".activity.http.HttpFromXutilActivity"
+            android:theme="@style/DetailActTheme"></activity>
+
+        <activity
+            android:name=".activity.http.HttpFromXutilDownloadActivity"
+            android:theme="@style/DetailActTheme"></activity>
+
+        <activity
+            android:name=".activity.http.HttpFromVolleyActivity"
+            android:theme="@style/DetailActTheme"></activity>
+
+        <activity
+            android:name=".activity.http.HttpFromOkhttpActivity"
+            android:theme="@style/DetailActTheme"></activity>
+
+        <activity
+            android:name=".activity.chart.HolleChartsActivity"
+            android:theme="@style/DetailActTheme"></activity>
+
+        <activity
+            android:name=".activity.chart.MvpAndroidChartsActivity"
+            android:theme="@style/DetailActTheme">
+
+        </activity>
+
+        <!--微信入口-->
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:exported="true"
+            android:theme="@style/DetailActTheme">
+
+        </activity>
+
+        <activity
+            android:name=".activity.paymethod.wechat.SendToWXActivity"
+            android:theme="@style/DetailActTheme"></activity>
+
+        <activity
+            android:name=".activity.paymethod.wechat.AddFavoriteToWXActivity"
+            android:theme="@style/DetailActTheme">
+
+        </activity>
+
+        <activity
+            android:name=".activity.paymethod.wechat.PayActivity"
+            android:theme="@style/DetailActTheme"></activity>
+
+        <activity
+            android:name=".activity.paymethod.wechat.GetFromWXActivity"
+            android:theme="@style/DetailActTheme"></activity>
+
+        <activity
+            android:name=".activity.paymethod.wechat.ShowFromWXActivity"
+            android:theme="@style/DetailActTheme"></activity>
+
+        <!-- 注册网络接收者receiver -->
+        <receiver android:name="com.run.runlibrary.netstate.NetworkStateReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.gzcpc.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Autolayout需要注明设计稿的尺寸 -->
+        <meta-data
+            android:name="design_width"
+            android:value="768" />
+        <meta-data
+            android:name="design_height"
+            android:value="1280" />
+
+    </application>
+
+</manifest>

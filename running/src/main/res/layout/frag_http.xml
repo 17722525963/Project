@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Xutil,OkHttp,Volley" />
+
+    <Button
+        android:id="@+id/http_xutil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xutil-Http" />
+
+    <Button
+        android:id="@+id/http_okHttp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xutil-okHttp" />
+
+    <Button
+        android:id="@+id/http_Volley"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xutil-Volley" />
+
+</LinearLayout>

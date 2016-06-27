@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Running</string>
+
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+    <string name="action_add">add</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="menu_item_clear_memory_cache">Clear memory cache</string>
+    <string name="menu_item_clear_disc_cache">Clear disc cache</string>
+    <string name="menu_item_pause_on_scroll">Pause on scroll</string>
+    <string name="menu_item_pause_on_fling">Pause on fling</string>
+
+    <string name="remove">移除</string>
+    <string name="stop">停止</string>
+    <string name="start">开始下载</string>
+
+    <string name="app_back">返回</string>
+    <string name="app_ok">确定</string>
+    <string name="app_cancel">取消</string>
+    <string name="app_continue">继续</string>
+    <string name="app_tip">提示</string>
+    <string name="app_send">发送</string>
+    <string name="app_set">设置</string>
+    <string name="app_save">保存</string>
+    <string name="app_delete">删除</string>
+    <string name="app_nextstep">下一步</string>
+    <string name="app_prevstep">上一步</string>
+    <string name="app_finish">完成</string>
+    <string name="app_find">查找</string>
+    <string name="app_edit">编辑</string>
+
+    <!-- WXMediaMessage -->
+    <string name="send">发送到微信</string>
+    <string name="receive">从微信接收</string>
+
+    <string name="is_timeline">是否分享到朋友圈</string>
+    <string name="send_text">发送文本</string>
+    <string name="send_text_default">这段文字发送自微信SDK示例程序</string>
+
+    <string name="send_img">发送图片</string>
+    <string-array name="send_img_item">
+        <item>发送图片的二进制数据</item>
+        <item>发送图片的本地路径</item>
+        <item>发送图片的URL</item>
+    </string-array>
+    <string-array name="fav_img_item">
+        <item>收藏图片的二进制数据</item>
+        <item>收藏图片的本地路径</item>
+    </string-array>
+    <string-array name="fav_file_item">
+        <item>收藏文件的二进制数据</item>
+        <item>收藏文件的本地路径</item>
+    </string-array>
+    <string name="send_img_file_not_exist">文件不存在</string>
+
+    <string name="send_pic">发送照片</string>
+
+    <string name="send_music">发送音乐</string>
+    <string-array name="send_music_item">
+        <item>发送音乐url</item>
+        <item>发送低带宽音乐url</item>
+    </string-array>
+
+    <string name="send_video">发送视频</string>
+    <string-array name="send_video_item">
+        <item>发送视频url</item>
+        <item>发送低带宽视频url</item>
+    </string-array>
+
+    <string name="send_webpage">发送网页</string>
+    <string-array name="send_webpage_item">
+        <item>发送网页url</item>
+    </string-array>
+
+    <string name="send_appdata">发送app消息</string>
+    <string-array name="send_appdata_item">
+        <item>发送app文件本地路径</item>
+        <item>发送app二进制数据</item>
+        <item>发送无附件的app</item>
+    </string-array>
+
+    <string name="send_emoji">发送表情消息</string>
+    <string-array name="send_emoji_item">
+        <item>发送表情本地路径</item>
+        <item>发送表情二进制数据</item>
+    </string-array>
+
+    <string-array name="send_emoji_item_format">
+        <item>发送GIF图片</item>
+        <item>发送非GIF图片</item>
+    </string-array>
+
+    <string-array name="mian_fragment_tab_title">
+        <item>菜谱大全</item>
+        <item>项目简介</item>
+    </string-array>
+
+</resources>

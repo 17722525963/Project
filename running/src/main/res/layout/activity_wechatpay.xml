@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/wechat_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到发消息+收藏界面" />
+
+    <Button
+        android:id="@+id/wechat_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转支付界面" />
+
+    <Button
+        android:id="@+id/launch_wechat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动微信" />
+
+    <Button
+        android:id="@+id/wechat_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="检查是否支持发送到朋友圈" />
+
+    <TextView
+        android:id="@+id/wechat_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

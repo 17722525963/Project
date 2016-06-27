@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MainActTheme" parent="@style/MainActThemeBase">
+
+    </style>
+
+    <style name="DetailActTheme" parent="@style/DetailActThemeBase">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+</resources>

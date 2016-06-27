@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/okhttp_get"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="get" />
+
+            <TextView
+                android:id="@+id/okhttp_get_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/okhttp_upload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="upload" />
+
+            <TextView
+                android:id="@+id/okhttp_upload_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/okhttp_download"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="download" />
+
+            <ProgressBar
+                android:id="@+id/okhttp_download_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/okhttp_download_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/okhttp_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="image" />
+
+            <TextView
+                android:id="@+id/okhttp_image_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/okhttp_imageview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

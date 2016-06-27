@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/image_volley"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volley图片加载" />
+
+    <Button
+        android:id="@+id/image_picasso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="picasso图片加载" />
+
+
+    <Button
+        android:id="@+id/image_uil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UIL图片加载" />
+
+    <Button
+        android:id="@+id/image_xutil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xutil图片加载" />
+
+    <Button
+        android:id="@+id/image_hy_kj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hongyang图片加载" />
+
+    <Button
+        android:id="@+id/image_bigimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hongyang高清加载巨图方案" />
+
+    <Button
+        android:id="@+id/image_worldmap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="worldmap" />
+
+
+</LinearLayout>

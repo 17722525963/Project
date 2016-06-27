@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/http_xutil_get"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="get方式获取天气信息" />
+
+            <TextView
+                android:id="@+id/show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/http_xutil_upload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="文件上传" />
+
+            <EditText
+                android:id="@+id/http_xutil_url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="http://dl.bintray.com/wyouflf/maven/org/xutils/xutils/3.3.34/xutils-3.3.34.aar" />
+
+            <Button
+
+                android:id="@+id/http_xutil_download"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="进度条提示下载" />
+
+
+            <Button
+                android:id="@+id/http_xutil_xutil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="断点续传" />
+
+
+            <Button
+                android:id="@+id/http_xutil_cahce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="带缓存的请求示例" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

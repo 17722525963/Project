@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/http_volley_get"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="基础网络请求" />
+
+            <TextView
+                android:id="@+id/http_volley_get_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <Button
+                android:id="@+id/http_volley_book"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Json小说书名(KEY值在URL中)" />
+
+            <TextView
+                android:id="@+id/http_volley_book_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/http_volley_book2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Json小说书名(KEY值=手动添加参数)" />
+
+            <TextView
+                android:id="@+id/http_volley_book_detail2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--<Button-->
+                <!--android:id="@+id/http_volley_xml"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="自定义XmlRequest" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/http_volley_xml_detail"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content" />-->
+
+            <Button
+                android:id="@+id/http_volley_gson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义GsonRequest" />
+
+            <TextView
+                android:id="@+id/http_volley_gson_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
