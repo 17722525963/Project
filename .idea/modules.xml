@@ -3,9 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Project.iml" filepath="$PROJECT_DIR$/Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project.iml" filepath="$PROJECT_DIR$/Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/mycook/mycook.iml" filepath="$PROJECT_DIR$/mycook/mycook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycook/mycook.iml" filepath="$PROJECT_DIR$/mycook/mycook.iml" />
       <module fileurl="file://$PROJECT_DIR$/runlibrary/runlibrary.iml" filepath="$PROJECT_DIR$/runlibrary/runlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/runlibrary/runlibrary.iml" filepath="$PROJECT_DIR$/runlibrary/runlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/running/running.iml" filepath="$PROJECT_DIR$/running/running.iml" />
       <module fileurl="file://$PROJECT_DIR$/running/running.iml" filepath="$PROJECT_DIR$/running/running.iml" />
     </modules>
   </component>

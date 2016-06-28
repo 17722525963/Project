@@ -29,6 +29,9 @@
         <activity android:name=".DetailActivity" />
         <activity android:name=".ListCardActivity" />
         <activity android:name=".AboutActivity" />
+        <activity android:name=".SettingActivity">
+
+        </activity>
 
         <!-- 注册网络接收者receiver -->
         <receiver android:name="com.run.runlibrary.netstate.NetworkStateReceiver">
@@ -46,7 +49,7 @@
             android:name="design_height"
             android:value="1280" />
 
-        <activity android:name=".SettingActivity"></activity>
+
     </application>
 
 </manifest>
