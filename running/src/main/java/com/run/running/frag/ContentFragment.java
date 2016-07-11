@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.widget.TextView;
 
-import com.run.runlibrary.BaseV4Fragment;
+import com.run.runlibrary.BaseFragment;
 import com.run.running.R;
 
 import org.xutils.view.annotation.ContentView;
@@ -14,7 +14,7 @@ import org.xutils.view.annotation.ViewInject;
  * Created by zsr on 2016/5/11.
  */
 @ContentView(R.layout.fragment_content)
-public class ContentFragment extends BaseV4Fragment {
+public class ContentFragment extends BaseFragment {
 
     @ViewInject(R.id.tv)
     private TextView view;

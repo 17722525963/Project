@@ -4,14 +4,13 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
-import com.run.runlibrary.BaseV4Fragment;
 import com.run.running.activity.MainActivity;
 import com.run.running.interfaces.OnFragmentRefreshListener;
 
 /**
  * Created by zsr on 2016/5/19.
  */
-public class BaseFragment extends BaseV4Fragment {
+public class BaseFragment extends com.run.runlibrary.BaseFragment {
 
     public OnFragmentRefreshListener mCallback;
     public MainActivity mainActivity;

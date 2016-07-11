@@ -116,6 +116,12 @@
 
         </activity>
 
+        <activity
+            android:name=".activity.html5.Html5Activity"
+            android:theme="@style/DetailActTheme">
+
+        </activity>
+
         <!--微信入口-->
         <activity
             android:name=".wxapi.WXEntryActivity"

@@ -23,4 +23,6 @@ public interface OnFragmentRefreshListener {
 
     public void onChartFragmentRefresh();
 
+    public void onHtml5FragmentRefresh();
+
 }

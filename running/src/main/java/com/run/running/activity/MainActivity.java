@@ -29,6 +29,7 @@ import com.run.running.adapter.LeftMenuAdapter;
 import com.run.running.entity.LeftMenu;
 import com.run.running.frag.ChartFragment;
 import com.run.running.frag.DBFragment;
+import com.run.running.frag.Html5Fragment;
 import com.run.running.frag.HttpFragment;
 import com.run.running.frag.ImageFragment;
 import com.run.running.frag.MVPFragment;
@@ -77,8 +78,8 @@ public class MainActivity extends BaseActivity implements OnMenuItemClickListene
 
     private String tag;
 
-    private String[] titles = {"主页", "图片加载", "Http相关", "MVP模式", "数据库操作", "地图操作", "其他平台SDK", "图表控件"};
-    private int[] imgs = {R.drawable.ic_home_black_24dp, R.drawable.ic_image_black_24dp, R.drawable.ic_vertical_align_center_black_24dp, R.drawable.ic_mvp_black_24dp, R.drawable.ic_db_black_24dp, R.drawable.ic_map_black_24dp, R.drawable.ic_sdk_black_24dp, R.drawable.ic_receipt_black_24dp};
+    private String[] titles = {"主页", "图片加载", "Http相关", "MVP模式", "数据库操作", "地图操作", "其他平台SDK", "图表控件", "Html5嵌入"};
+    private int[] imgs = {R.drawable.ic_home_black_24dp, R.drawable.ic_image_black_24dp, R.drawable.ic_vertical_align_center_black_24dp, R.drawable.ic_mvp_black_24dp, R.drawable.ic_db_black_24dp, R.drawable.ic_map_black_24dp, R.drawable.ic_sdk_black_24dp, R.drawable.ic_receipt_black_24dp, R.drawable.ic_web_24dp};
 
     private ActionBarDrawerToggle mActionBarDrawerToggle;
 
@@ -139,9 +140,9 @@ public class MainActivity extends BaseActivity implements OnMenuItemClickListene
                     //刷新完成
 //                    Toast.makeText(MainActivity.this, "Fragment===" + getVisibleFragment(), Toast.LENGTH_SHORT).show();
 
-//                    Fragment frag = getVisibleFragment();
+//                    Fragment frag_html5 = getVisibleFragment();
 //
-//                    fragmentManager.beginTransaction().replace(R.id.content_frame, frag).commit();
+//                    fragmentManager.beginTransaction().replace(R.id.content_frame, frag_html5).commit();
 
 
                     test()
@@ -181,6 +182,9 @@ public class MainActivity extends BaseActivity implements OnMenuItemClickListene
 //                break;
             case "7":
                 onChartFragmentRefresh();
+                break;
+            case "8":
+                onHtml5FragmentRefresh();
                 break;
         }
     }
@@ -286,6 +290,10 @@ public class MainActivity extends BaseActivity implements OnMenuItemClickListene
                     case 7:
                         contentFragment = new ChartFragment();
                         mToolbar.setTitle(titles[7]);
+                        break;
+                    case 8:
+                        contentFragment = new Html5Fragment();
+                        mToolbar.setTitle(titles[8]);
                         break;
                 }
                 fragmentManager.beginTransaction().replace(R.id.content_frame, contentFragment, tag).commit();
@@ -476,4 +484,10 @@ public class MainActivity extends BaseActivity implements OnMenuItemClickListene
     public void onChartFragmentRefresh() {
         Toast.makeText(MainActivity.this, "Chart", Toast.LENGTH_LONG).show();
     }
+
+    @Override
+    public void onHtml5FragmentRefresh() {
+        Toast.makeText(MainActivity.this, "html5", Toast.LENGTH_LONG).show();
+    }
+
 }
